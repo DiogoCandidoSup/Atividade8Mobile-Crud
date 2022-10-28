@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="CRUD SQLITE"
+        android:textSize="30sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:src="@drawable/servidor"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:hint="Insira o seu nome"
+        android:inputType="textPersonName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edCpf"
+        android:hint="Insira o seu CPF"
+        android:inputType="textPersonName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edTelefone"
+        android:hint="Insira o seu telefone"
+        android:inputType="textPersonName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:text="Salvar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+</LinearLayout>
